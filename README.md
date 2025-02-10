@@ -1,36 +1,40 @@
-## React
+# 🍽️ Restaurant Reservation System
 
-This is a simple React application. This application serves as a basic template for a react applications.  
-This project is bootstrapped with [Vite](https://vitejs.dev/guide/).
+## 📌 Project Overview
+The **Restaurant Reservation System** is a React-based web application that allows customers to book tables dynamically. It updates seat availability in real-time and ensures smooth reservation management without requiring a backend. The system prevents overbooking, allows checkouts, and includes interactive UI elements for a seamless user experience.
 
-## How to run
+## 🚀 Features
+- **Real-time Reservation Updates** – Seats update dynamically based on guest count.
+- **Interactive UI** – A modern and stylish design with responsive layout.
+- **Check-in & Checkout System** – Customers can check in and out, updating seat availability accordingly.
+- **Data Validation** – Prevents overbooking and optionally warns about duplicate names.
+- **Easy Deletion** – Users can remove their reservation, adjusting seat count appropriately.
 
-1. Before running the application, make sure all dependencies are installed. To install dependencies, run following command in terminal:
+## 🛠️ Technologies Used
+- **Frontend**: React (JSX)
+- **Styling**: CSS (Glassmorphism & Modern UI Design)
+- **State Management**: React Hooks (`useState`)
+
+## 📂 Project Structure
+```
+restaurant-reservation/
+│── src/
+│   ├── components/
+│   │   ├── ReservationSystem.jsx
+│   ├── styles/
+│   │   ├── styles.css
+│   ├── App.js
+│   ├── index.js
+│── public/
+│── package.json
+│── README.md
+```
+
+1. **Clone the repository**
    ```sh
-   npm install
+   git clone https://github.com/jagadeep18/restaurant-reservation-system.git
+   cd restaurant-reservation
    ```
 
-2. Once dependencies are installed, run the following command to start the application:
-   ```sh
-   npm run dev
-   ```
-
-3. Refresh the URL in simple browser to see the output. As shown below 
-   ![](https://static.onecompiler.com/images/posts/3zzkbysj7/studio-react-vite-reload.png)
-
-
-## FAQs & Debugging
-
- ### 1. I do not see browser in my workspace
- Studio will automatically open the app in a new browser tab. If not, you can use the following steps to open the simple browser 
-
-1. From VS Code command pallette(`Ctrl/Cmd + Shift + P`), run **Studio Manager: SimpleBrowser Default URL** command. This will open the app in a new browser tab.
-
-2. Your app runs on hosted env which can be accessed using host id, port provided in file **.vsocde/.studio/studio-env.json**. Use values to create the URL as follows:
-   `https://<STUDIO_HOST_ID>-3000.ocws.app`
-
- ### 2. Getting `vite: not found` error
- This means node_modules are missing in your workspace, please refer the 'How to run' section and make sure you have followed the steps in sequence
-
- ### 3. Can I use create-react-app instead Vite?
- Yes, you can use create-react-app instead Vite, the default workspace is loaded with Vite setup, you can remove the Vite dependencies, add create-react-app dependencies and update the scripts to start using create-react-app.
+## 👨‍💻 Author
+Developed by **Gorantla Jagadeep**
