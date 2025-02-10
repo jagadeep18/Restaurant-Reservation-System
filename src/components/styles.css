@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background: url('https://th.bing.com/th/id/OIP.bFGtFyB_DDCWYEI9kGLWPwAAAA?rs=1&pid=ImgDetMain') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 700px;
+    background: rgba(0, 0, 0, 0.6); /* Darken the container */
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .seats {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  input, button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  input {
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    font-weight: bold;
+  }
+  
+  button {
+    background: #FF512F;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background: #FF3A22;
+    transform: scale(1.05);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background: #FF512F;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+  }
+  
+  td {
+    text-align: left;
+  }
+  
+  td button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  td button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  td button.deleteBtn {
+    background: #e63946;
+  }
+  
+  td button.deleteBtn:hover {
+    background: #d62828;
+  }
+  
+  /* Hover effects */
+  .container:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }
+  
