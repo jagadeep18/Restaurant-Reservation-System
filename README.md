@@ -1,7 +1,7 @@
 # 🍽️ Restaurant Reservation System
 
 ## 📌 Project Overview
-The **Restaurant Reservation System** is a React-based web application that allows customers to book tables dynamically. It updates seat availability in real-time and ensures smooth reservation management without requiring a backend. The system prevents overbooking, allows checkouts, and includes interactive UI elements for a seamless user experience.
+The **Restaurant Reservation System** is a React-based web application that allows customers to book tables dynamically. It updates seat availability in real-time and ensures smooth reservation management without requiring a backend. The system prevents overbooking, allows checkouts, and includes interactive UI elements for a seamless user experience. 
 
 ## 🚀 Features
 - **Real-time Reservation Updates** – Seats update dynamically based on guest count.
