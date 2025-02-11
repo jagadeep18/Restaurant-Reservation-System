@@ -33,7 +33,7 @@ restaurant-reservation/
 1. **Clone the repository**
    ```sh
    git clone https://github.com/jagadeep18/restaurant-reservation-system.git
-   cd restaurant-reservation
+   cd restaurant-reservation-system
    ```
 
 ## 👨‍💻 Author
